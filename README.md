@@ -1,7 +1,8 @@
+```markdown
 # 🎨 SublimStudio Pro
 
 <p align="center">
-  <img src="docs/screenshots/01-interface-principal.png" alt="SublimStudio Pro" width="900">
+  <img src="docs/screenshots/01.png" alt="SublimStudio Pro — Interface Principal" width="900">
 </p>
 
 <h3 align="center">Estúdio Profissional de Sublimação, Ilustração e Mockups 3D em Tempo Real</h3>
@@ -21,446 +22,215 @@
 
 ## 🚀 Sobre o projeto
 
-O **SublimStudio Pro** é um ambiente de criação visual desenvolvido para profissionais de **sublimação, personalização, estamparia, brindes e produção gráfica**.
+O **SublimStudio Pro** é um ambiente de criação visual e pré-impressão completo, desenvolvido especialmente para profissionais de **sublimação, personalização, estamparia, brindes e produção gráfica**[cite: 17].
 
-A proposta é reunir em um único espaço ferramentas que normalmente ficam espalhadas entre diferentes programas: edição de elementos, tipografia, WordArt, criação de nuvens de palavras, modelos de estampas, preparação visual e **visualização 3D do produto**.
+O ecossistema reúne em um único software as ferramentas necessárias para o fluxo completo de estamparia: da edição 2D ao catálogo de bancos em HD, geradores tipográficos, processamento por IA, integração com bancos externos, **visualização em mockup 3D em tempo real** e **Central Unificada de Impressão (Montagem em Folha / RIP & Preview)**[cite: 1, 2, 6, 8, 9, 12, 13, 14, 17].
 
-O projeto está sendo construído com foco em uma experiência moderna de estúdio criativo, combinando **edição 2D + recursos de IA + mockups 3D + fluxo de produção**.
-
-> ⚠️ **Status:** projeto em desenvolvimento ativo. Algumas funções, integrações e ferramentas ainda podem estar sendo aprimoradas.
+> ⚠️ **Status:** Projeto em desenvolvimento ativo[cite: 17]. Algumas rotinas avançadas de RIP e deformações 3D em malha cônica estão em fase de otimização contínua[cite: 17].
 
 ---
 
 ## ✨ Principais recursos
 
-### 🖌️ Editor de Estampas
+### 🖌️ Editor de Estampas e Produtos
+- Área de criação visual para estampas com grid, guias e sangria configuráveis[cite: 1, 11].
+- Seleção direta de produtos pré-configurados (Canecas 11oz, 10oz, 3oz, Copo Shot 1.5oz, Cônicas 12oz/17oz, Camisetas, etc.)[cite: 11, 17].
+- Suporte a tamanhos sob medida e ajuste inteligente no layout[cite: 11].
+- Organização por camadas e manipulação de elementos vetoriais e rasterizados[cite: 2, 10].
 
-- Área de criação visual para estampas.
-- Edição de textos e elementos.
-- Organização por camadas.
-- Formas geométricas e elementos gráficos.
-- Controles de composição e posicionamento.
-- Interface pensada para fluxo de trabalho de sublimação.
+### 🔤 WordArt Studio PRO & Fontes
+- Criador de tipografias 3D com renderização em tempo real (300 DPI)[cite: 5, 6].
+- Estilos de texto em arco, efeito neon, ouro/metal, retro 3D, nuvem e marcas de selo[cite: 5].
+- Paletas de cores vibrantes dedicadas à sublimação e gradientes dinâmicos[cite: 6].
+- Gerenciador de fontes personalizadas (OTF, TTF, WOFF2) com mais de 1000 opções integradas via Google Fonts[cite: 3].
 
-### 🔤 WordArt Studio PRO
+### ☁️ Gerador de Nuvem de Palavras
+- Composição tipográfica moldada por silhueta (Caneca, Camiseta, Coração, Estrela, Círculo, Coroa, Chama, Escudo)[cite: 4].
+- Importação por lista de palavras com controle de frequência, densidade e orientação (Horizontal, Misto 90°, Ângulos)[cite: 4].
+- Paletas cromáticas sublimáticas prontas (Sublimação Vibrante, Cyber Neon, Dourado & Luxo, etc.)[cite: 4].
 
-Ferramentas especializadas para criação de tipografias decorativas:
+### 🔳 Gerador de QR Code Art
+- Criação de QR Codes funcionais parametrizados para links, Wi-Fi, WhatsApp, E-mail e VCard[cite: 7].
+- Estilização artística com suporte a bordas, molduras, logos centrais e exportação vetorial em SVG ou PNG de alta definição[cite: 7].
 
-- Texto em arco.
-- Texto circular para canecas.
-- Efeitos 3D.
-- Neon e estilos gráficos.
-- Selos e emblemas.
-- Faixas curvas.
-- Tipografias para camisetas, canecas e almofadas.
-- Pré-visualização em alta resolução.
+### 🖼️ Molduras, Bancos HD & Uploads
+- Suporte a máscaras de corte e molduras estilizadas para retratos e caricaturas com controle de espessura e intensidade[cite: 8].
+- Integração nativa com bancos de imagens de alta resolução (Unsplash, Pexels, Pixabay, Wikimedia) e categorias organizadas[cite: 12].
+- Área de transferência rápida para colar artes diretamente da memória (Ctrl+V) mantendo o canal alfa/transparência[cite: 10].
+
+### 🧠 IA Studio (Gerador de Estampas por IA)
+- Geração de artes orientadas a prompts e nichos (Floral Aquarela, Cyberpunk, Animes, Pet, Profissões)[cite: 9].
+- Histórico de sessão e otimização automática de parâmetros para prensas térmicas e calandras em 300 DPI[cite: 9].
+
+### 🧊 Mockup 3D em Tempo Real
+- Mapeamento direto do Canvas 2D no objeto tridimensional em tempo real[cite: 1, 11].
+- Rotação 360°, controle de câmera (Frente, Lateral, Verso, Topo, Isométrico)[cite: 1, 11].
+- Pré-visualização com simulação de superfície realista (cerâmica, vidro, tecidos)[cite: 1, 11].
+
+### 🖨️ Central Unificada de Impressão (Nesting & RIP)
+- **Montagem em Folha (Nesting):** Imposição automática para economia de papel em formatos A4, A3, A3+, Ofício e Carta[cite: 13, 17].
+- **Cálculo de Ocupação:** Aproveitamento otimizado da folha, repetição rápida de slots e marcas de corte/registro para plotter integradas[cite: 13, 17].
+- **RIP & Preview:** Perfis de papel sublimático (Fundo Azul, Resinadas, Matte, Infusible Ink) com estimativa em tempo real do consumo de tinta (Cyan, Magenta, Yellow, Black) e custo por folha[cite: 14].
 
 <p align="center">
-  <img src="docs/screenshots/02-wordart-studio.png" alt="WordArt Studio PRO" width="900">
+  <img src="docs/screenshots/13.png" alt="Central Unificada de Impressão — Montagem em Folha" width="900">
 </p>
 
 ---
 
-### ☁️ Gerador de WordArt & Nuvem de Palavras
+## 🎯 Público-Alvo
 
-Criação de composições tipográficas a partir de listas de palavras ou temas:
-
-- Geração de listas por tema.
-- Controle de intensidade das palavras.
-- Silhuetas personalizadas.
-- Formatos como:
-  - ☕ Caneca
-  - 👕 Camiseta
-  - ❤️ Coração
-  - ⭐ Estrela
-  - ⭕ Círculo
-  - 👑 Coroa
-  - 🔥 Chama
-  - 🛡️ Escudo
-- Controle de orientação.
-- Densidade e preenchimento.
-- Escolha de fontes.
-- Paletas de cores para sublimação.
-- Inserção direta na estampa.
-
-<p align="center">
-  <img src="docs/screenshots/03-nuvem-palavras.png" alt="Gerador de WordArt e Nuvem de Palavras" width="900">
-</p>
-
----
-
-### 🔷 Elementos & Formas
-
-Biblioteca visual para acelerar a criação:
-
-- Linhas.
-- Setas.
-- Conectores.
-- Curvas.
-- Retângulos.
-- Polígonos.
-- Formas básicas.
-- Formas utilizadas recentemente.
-- Busca de elementos.
-- Categorias de formas.
-- Reutilização rápida de elementos.
-
-<p align="center">
-  <img src="docs/screenshots/04-elementos-formas.png" alt="Elementos e Formas" width="420">
-</p>
-
----
-
-### 🧠 Estúdio IA
-
-O projeto possui uma área dedicada a recursos de Inteligência Artificial para auxiliar no processo criativo.
-
-A visão do módulo inclui:
-
-- Geração de ideias visuais.
-- Criação de elementos para estampas.
-- Remoção de fundo.
-- Vetorização.
-- Upscaling.
-- Assistência na criação de artes.
-- Fluxos orientados para sublimação.
-
-A integração de IA está sendo evoluída conforme o projeto avança.
-
----
-
-### 🧊 Mockup 3D em tempo real
-
-Uma das características centrais do SublimStudio Pro é a visualização da arte aplicada ao produto.
-
-O ambiente 3D foi pensado para trabalhar com diferentes produtos e visualizações:
-
-- Canecas.
-- Camisetas.
-- Almofadas.
-- Objetos personalizados.
-- Visualização frontal.
-- Lateral.
-- Traseira.
-- Superior.
-- Rotação 360°.
-- Pré-visualização da aplicação da arte.
-
-<p align="center">
-  <img src="docs/screenshots/05-editor-3d.png" alt="SublimStudio Pro com Mockup 3D" width="1000">
-</p>
-
----
-
-## 🎯 Para quem é
-
-O SublimStudio Pro foi pensado principalmente para:
-
-| Público | Utilização |
+| Público | Utilização Principal |
 |---|---|
-| 🎨 Sublimadores | Criação e preparação de estampas |
-| 👕 Personalizados | Camisetas, canecas, almofadas e brindes |
-| 🖨️ Gráficas rápidas | Criação de materiais personalizados |
-| 🧑‍🎨 Designers | Composição e edição visual |
-| 🏪 Pequenos negócios | Produção de artes para produtos |
-| 🧪 Criadores | Experimentação de conceitos e estilos |
-| 📦 Produção personalizada | Visualização antes da fabricação |
+| 🎨 **Sublimadores** | Criação, simulação 3D e impressão otimizada de canecas e brindes[cite: 1, 11, 13, 17] |
+| 👕 **Ateliês de Personalizados** | Produção de camisetas, almofadas e produtos sob medida[cite: 4, 11, 17] |
+| 🖨️ **Gráficas Rápidas** | Montagem de folha A4/A3 com marcas de corte e envio direto ao RIP[cite: 13, 14, 17] |
+| 🧑‍🎨 **Designers & Freelancers** | Desenvolvimento acelerado de estampas tipográficas e mockups de venda[cite: 1, 5, 8] |
 
 ---
 
-## 🧩 Visão do produto
-
-O objetivo do SublimStudio Pro é evoluir para um **estúdio visual especializado em personalização**, reduzindo a necessidade de alternar entre várias ferramentas.
+## 🧩 Visão Arquitetural do Produto
 
 ```text
-                  SUBLIMSTUDIO PRO
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-     EDITOR 2D        ESTÚDIO IA       MOCKUP 3D
-        │                │                │
-   ┌────┼────┐       ┌───┼────┐      ┌────┼────┐
-   │    │    │       │   │    │      │    │    │
- Texto Formas WordArt  IA  Vetor  Caneca Camiseta Produtos
-   │    │    │       │   │    │      │    │    │
-   └────┴────┴───────┴───┴────┴──────┴────┴────┘
-                         │
-                    PRODUÇÃO
-                         │
-               ┌─────────┴─────────┐
-               │                   │
-             PNG / HD          Sublimação
+                                SUBLIMSTUDIO PRO
+                                       │
+        ┌──────────────────────────────┼──────────────────────────────┐
+        │                              │                              │
+    EDITOR 2D                      ESTÚDIO IA                     MOCKUP 3D
+        │                              │                              │
+   ┌────┼────────┬───────┐        ┌────┼────────┐            ┌────────┴────────┐
+   │    │        │       │        │    │        │            │                 │
+Texto Formas WordArt QR Code     IA  Vetor Upscale       Canecas           Camisetas
+   │    │        │       │        │    │        │         (Cil./Cônicas)       /Brindes
+   └────┴────────┴───────┴────────┴────┴────────┴────────────┬────────────────┘
+                                                             │
+                                                  CENTRAL DE IMPRESSÃO
+                                                             │
+                                                 ┌───────────┴───────────┐
+                                                 │                       │
+                                           MONTAGEM (A4/A3)         RIP & PREVIEW
+                                            (Nesting/Corte)       (Perfis/Consumo)
+
 ```
 
 ---
 
-## 🖥️ Interface
+## 🖥️ Arquitetura Visual & Responsividade
 
-A interface foi projetada como um ambiente de desenvolvimento visual, com:
+O SublimStudio Pro adota a diretriz de **Canvas Sempre Visível**:
 
-- Barra superior de comandos.
-- Barra lateral de ferramentas.
-- Painel de modelos.
-- Área central de edição.
-- Painéis de propriedades.
-- Camadas.
-- Ferramentas de WordArt.
-- Estúdio IA.
-- Visualização 3D.
-- Controles de zoom e navegação.
-- Suporte a tema escuro.
-- Preparação para experiência PWA/mobile.
+* **Mobile/Tablet:** O preview/canvas fica fixo na porção superior da tela enquanto o painel de ferramentas desliza na área inferior.
 
----
 
-## 📱 PWA e Android
+* **Desktop:** Layout em grade de colunas independentes mantendo o fluxo 2D/3D visível à esquerda e propriedades expansíveis à direita.
 
-O projeto também possui uma visão voltada para utilização em dispositivos móveis.
 
-Objetivos:
+* **PWA / Mobile Native:** Adaptado com suporte a `100dvh` e *safe-area-insets* para uso direto em dispositivos móveis e tablets sem barra de rolagem do navegador.
 
-- Aplicação instalável.
-- PWA.
-- Interface responsiva.
-- Navegação adaptada para touch.
-- Utilização em Android.
-- Experiência de edição otimizada para telas menores.
+
 
 ---
 
 ## 🛠️ Tecnologias
 
-A arquitetura do projeto está sendo construída em torno de tecnologias modernas para aplicações web interativas.
+* **Frontend:** React, TypeScript, Vite, Tailwind CSS
 
-**Frontend**
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
+* **Estado Global:** Zustand
+* **Graphics & 3D Engine:** Canvas API (2D Composite), Three.js / WebGL (Renderização 3D)
 
-**Estado e arquitetura**
 
-- Zustand
-- Componentização modular
-- Arquitetura orientada a ferramentas e engines
+* **Arquivos & Exportação:** SVG, PNG Alpha (300 DPI), PDF para impressão
 
-**Gráficos e 3D**
 
-- Canvas API
-- Three.js
-- Renderização 2D/3D
-- Manipulação de elementos gráficos
+* **Distribuição:** Progressive Web App (PWA) / Cross-platform
 
-**Aplicação**
 
-- PWA
-- Preparação para Android/Desktop
-- Armazenamento local
-- Fluxo local-first
-
-> A stack pode evoluir durante o desenvolvimento conforme novas necessidades técnicas forem identificadas.
 
 ---
 
-## 📐 Fluxo de trabalho
+## 📸 Galeria de Telas
 
-Um fluxo típico dentro do SublimStudio Pro:
+| Arquivo | Recurso / Funcionalidade | Prévia |
+| --- | --- | --- |
+| **01.png** | **Interface Principal:** Editor 2D + Mockup 3D em Tempo Real
 
-```text
-1. Escolher produto
-       ↓
-2. Criar ou abrir uma estampa
-       ↓
-3. Inserir textos, imagens e formas
-       ↓
-4. Criar WordArt / Nuvem de Palavras
-       ↓
-5. Ajustar cores e composição
-       ↓
-6. Utilizar recursos de IA
-       ↓
-7. Visualizar no Mockup 3D
-       ↓
-8. Revisar medidas e posicionamento
-       ↓
-9. Exportar a arte
-       ↓
-10. Produzir / Sublimar
-```
+ |  |
+| **02.png** | **Modelos Prontos:** Painel de templates editáveis em camadas
 
----
+ |  |
+| **03.png** | **Texto Simples:** Gerenciador de fontes com Google Fonts e uploads
 
-## 🗺️ Roadmap
+ |  |
+| **04.png** | **Nuvem de Palavras:** Gerador com formatos (Caneca, Camiseta, Coração)
 
-### ✅ Base do projeto
+ |  |
+| **05.png** | **WordArt Studio PRO:** Títulos 3D e efeitos em arco/curva
 
-- [x] Interface principal
-- [x] Editor visual
-- [x] Sistema de ferramentas
-- [x] Modelos de estampas
-- [x] Elementos e formas
-- [x] WordArt
-- [x] Nuvem de palavras
-- [x] Painel de camadas
-- [x] Mockup 3D
-- [x] Interface para PWA
+ |  |
+| **06.png** | **WordArt Generator 3.0:** Módulo multi-cores e partículas em 300 DPI
 
-### 🚧 Em desenvolvimento
+ |  |
+| **07.png** | **QR Code Art:** Gerador estilizado para links, Wi-Fi e redes sociais
 
-- [ ] Aperfeiçoamento do Canvas Engine
-- [ ] Mais produtos 3D
-- [ ] Sistema avançado de deformação para superfícies
-- [ ] Exportação profissional para impressão
-- [ ] Fluxos avançados de IA
-- [ ] Vetorização aprimorada
-- [ ] Biblioteca de templates
-- [ ] Mais ferramentas touch/mobile
-- [ ] Melhorias de acessibilidade
-- [ ] Otimização de performance
+ |  |
+| **08.png** | **Molduras para Fotos:** Edição de retratos, bordas e filtros artísticos
 
-### 🔮 Futuro
+ |  |
+| **09.png** | **IA Studio:** Gerador de estampas otimizado por prompts
 
-- [ ] Mais mockups 3D
-- [ ] Editor vetorial avançado
-- [ ] Sistema de preparação para diferentes processos de impressão
-- [ ] Biblioteca profissional de materiais
-- [ ] Automação de tarefas repetitivas
-- [ ] Marketplace/biblioteca de recursos
-- [ ] Integrações adicionais
+ |  |
+| **10.png** | **Uploads & Colar:** Área de transferência com suporte a PNG Alpha
+
+ |  |
+| **11.png** | **Produtos & Cônicas:** Catálogo com suporte a canecas cônicas 12oz/17oz
+
+ |  |
+| **12.png** | **Bancos de Imagens:** Unsplash, Pexels e Pixabay integrados
+
+ |  |
+| **13.png** | **Central de Impressão:** Montagem automática em Folha A4 (Nesting)
+
+ |  |
+| **14.png** | **Central de Impressão:** RIP & Preview com cálculo de tinta e custos
+
+ |  |
 
 ---
 
-## 🧪 Projeto em desenvolvimento
-
-Este repositório representa o desenvolvimento do **SublimStudio Pro** e pode conter funcionalidades experimentais.
-
-A arquitetura está sendo construída de forma incremental, priorizando:
-
-- estabilidade;
-- performance;
-- experiência do usuário;
-- modularidade;
-- compatibilidade web;
-- experiência touch;
-- reutilização de componentes;
-- evolução do editor sem perder simplicidade.
-
----
-
-## 📸 Galeria
-
-### Interface principal
-
-![Interface principal](docs/screenshots/01-interface-principal.png)
-
-### WordArt Studio PRO
-
-![WordArt Studio](docs/screenshots/02-wordart-studio.png)
-
-### Nuvem de palavras
-
-![Nuvem de palavras](docs/screenshots/03-nuvem-palavras.png)
-
-### Elementos e formas
-
-![Elementos e formas](docs/screenshots/04-elementos-formas.png)
-
-### Editor + Mockup 3D
-
-![Editor 3D](docs/screenshots/05-editor-3d.png)
-
----
-
-## ⚡ Instalação
-
-Clone o projeto:
+## ⚡ Instalação e Execução Local
 
 ```bash
-git clone SEU_REPOSITORIO_AQUI
-cd SEU_PROJETO
-```
+# Clone o repositório
+git clone [https://github.com/SEU_USUARIO/sublimstudio-pro.git](https://github.com/SEU_USUARIO/sublimstudio-pro.git)
 
-Instale as dependências:
+# Acesse o diretório
+cd sublimstudio-pro
 
-```bash
+# Instale as dependências
 npm install
-```
 
-Execute em desenvolvimento:
-
-```bash
+# Execute o servidor de desenvolvimento
 npm run dev
-```
 
-Para gerar a versão de produção:
-
-```bash
+# Gere a build de produção
 npm run build
+
 ```
-
-Para testar a build:
-
-```bash
-npm run preview
-```
-
-> Ajuste os comandos acima caso o `package.json` do projeto utilize outro gerenciador ou scripts personalizados.
 
 ---
 
-## 🤝 Contribuição
+## 📄 Licença & Créditos
 
-Sugestões, ideias e melhorias são bem-vindas.
+Desenvolvido por **diBiTech®**
 
-Antes de enviar uma contribuição:
-
-1. Faça um fork do projeto.
-2. Crie uma branch para sua alteração.
-3. Faça as modificações.
-4. Teste a aplicação.
-5. Envie um Pull Request descrevendo o que foi alterado.
-
----
-
-## 📄 Licença
-
-Defina aqui a licença escolhida para o projeto.
-
-Exemplo:
+Projeto dedicado ao ecossistema de soluções gráficas e sublimação digital.
 
 ```text
-Copyright © 2026 diBiTech®
-SublimStudio Pro
+Copyright © 2026 diBiTech® — Todos os direitos reservados.
+
 ```
 
----
+```
 
-## 👨‍💻 Desenvolvimento
-
-**SublimStudio Pro**  
-Criado por **diBiTech®**
-
-Desenvolvimento: **Rui & Rodrigo**
-
-Projeto dedicado ao desenvolvimento de ferramentas para **sublimação, personalização, ilustração e visualização 3D**.
-
----
-
-## 🌐 Links
-
-- 🌎 Website: **https://www.dibitech.com.br**
-- 📦 Repositório: **adicione o link do GitHub**
-- 🚀 Demo: **adicione o link da aplicação**
-- 📚 Documentação: **adicione quando disponível**
-
----
-
-<p align="center">
-  <strong>🎨 SublimStudio Pro</strong><br>
-  <sub>Do desenho à peça pronta, em um único estúdio.</sub>
-</p>
-
-<p align="center">
-  © 2026 diBiTech® • SublimStudio Pro
-</p>
+```
