@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="#-português-pt-br">Português (PT-BR)</a> •
-  <a href="#-english-en">English (EN)</a> •
-  <a href="#-español-es">Español (ES)</a>
+  <a href="#-português-pt-br">🇧🇷 Português (PT-BR)</a> •
+  <a href="#-english-en">🇺🇸 English (EN)</a> •
+  <a href="#-español-es">🇪🇸 Español (ES)</a>
 </p>
 
 ---
@@ -39,37 +39,98 @@ A proposta é reunir em um único ambiente ferramentas de edição 2D, tipografi
 ### ✨ Principais Recursos
 
 * **🎨 Editor de Estampas e Produtos:** Área de trabalho 2D, camadas, guias, margem de segurança e sangria a 300 DPI.
-* **🔤 WordArt Studio PRO:** Efeitos 3D, neon, retro, textos curvados e integração com Google Fonts e fontes locais (OTF, TTF, WOFF2).
+* **🔤 WordArt Studio PRO:** Efeitos 3D, neon, retro, metálicos, textos curvados e integração com Google Fonts e fontes locais OTF, TTF e WOFF2.
 * **☁️ Word Cloud Generator:** Gerador de nuvem de palavras com formas de caneca, camiseta, coração, escudo, estrela, coroa, chama e outras formas.
 * **🔳 QR Code Art:** Criação de QR Codes estilizados com logotipos e exportação em SVG/PNG.
 * **🤖 AI Studio:** Geração de imagens via inteligência artificial otimizada para estamparia e produtos personalizados.
-* **🖼️ Bancos de Imagens HD:** Acesso e integração com fontes de imagens para utilização em projetos de personalização e design.
-* **🧊 Mockup 3D em Tempo Real:** Visualização 360° da arte aplicada em objetos tridimensionais, incluindo canecas, camisetas e produtos cônicos.
-* **🖨️ Central de Impressão:** Algoritmo de *nesting* para aproveitamento de papel (A4, A3, A3+), marcas de corte e preparação RIP.
+* **🖼️ Bancos de Imagens HD:** Recursos visuais integrados ao fluxo criativo.
+* **🧊 Mockup 3D em Tempo Real:** Visualização 360° da arte aplicada em objetos tridimensionais.
+* **🖨️ Central de Impressão:** *Nesting* para aproveitamento de papel A4, A3 e A3+, marcas de corte e preparação para impressão.
 
 ---
 
 ### 🖼️ Galeria de Screenshots
 
-|               Interface Principal               |             WordArt Studio PRO             |
-| :---------------------------------------------: | :----------------------------------------: |
-| ![Interface principal](docs/screenshots/01.png) | ![WordArt Studio](docs/screenshots/02.png) |
+#### 🎨 Interface Principal
 
-|               Nuvem de Palavras               |           Elementos e Formas          |
-| :-------------------------------------------: | :-----------------------------------: |
-| ![Nuvem de Palavras](docs/screenshots/03.png) | ![Elementos](docs/screenshots/04.png) |
+<p align="center">
+  <img src="docs/screenshots/01.png"
+       alt="Interface principal do SublimStudio Pro"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
 
-|               Mockup 3D               |    Central de Impressão (Nesting)   |
-| :-----------------------------------: | :---------------------------------: |
-| ![Mockup 3D](docs/screenshots/05.png) | ![Nesting](docs/screenshots/13.png) |
+#### 🔤 WordArt Studio PRO
 
-|               SublimStudio Pro — 15              |               SublimStudio Pro — 16              |
-| :----------------------------------------------: | :----------------------------------------------: |
-| ![SublimStudio Pro 15](docs/screenshots/15.jpeg) | ![SublimStudio Pro 16](docs/screenshots/16.jpeg) |
+<p align="center">
+  <img src="docs/screenshots/02.png"
+       alt="WordArt Studio PRO"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
 
-|               SublimStudio Pro — 17              |     |
-| :----------------------------------------------: | :-: |
-| ![SublimStudio Pro 17](docs/screenshots/17.jpeg) |     |
+#### ☁️ Nuvem de Palavras
+
+<p align="center">
+  <img src="docs/screenshots/03.png"
+       alt="Gerador de Nuvem de Palavras"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 🧩 Elementos e Formas
+
+<p align="center">
+  <img src="docs/screenshots/04.png"
+       alt="Elementos e formas"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 🧊 Mockup 3D
+
+<p align="center">
+  <img src="docs/screenshots/05.png"
+       alt="Mockup 3D"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 🖨️ Central de Impressão — Nesting
+
+<p align="center">
+  <img src="docs/screenshots/13.png"
+       alt="Central de Impressão e Nesting"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 📱 Novas Interfaces — 15
+
+<p align="center">
+  <img src="docs/screenshots/15.jpeg"
+       alt="SublimStudio Pro - Interface 15"
+       width="600"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 📱 Novas Interfaces — 16
+
+<p align="center">
+  <img src="docs/screenshots/16.jpeg"
+       alt="SublimStudio Pro - Interface 16"
+       width="600"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 📱 Novas Interfaces — 17
+
+<p align="center">
+  <img src="docs/screenshots/17.jpeg"
+       alt="SublimStudio Pro - Interface 17"
+       width="600"
+       style="max-width:100%;height:auto;">
+</p>
 
 ---
 
@@ -77,9 +138,12 @@ A proposta é reunir em um único ambiente ferramentas de edição 2D, tipografi
 
 * **Interface:** React + TypeScript + Vite + Tailwind CSS
 * **Estado Global:** Zustand
-* **Graphics & 3D:** Canvas API, SVG, Three.js, WebGL
-* **Performance:** Web Workers, PWA
-* **Arquitetura:** Aplicação web responsiva com suporte a desktop, tablet e dispositivos móveis.
+* **Graphics & 3D:** Canvas API, SVG, Three.js e WebGL
+* **Performance:** Web Workers
+* **Aplicação:** PWA
+* **Responsividade:** Desktop, tablet e dispositivos móveis
+
+---
 
 ---
 
@@ -106,9 +170,9 @@ A proposta é reunir em um único ambiente ferramentas de edição 2D, tipografi
 
 ### 📌 About the Project
 
-**SublimStudio Pro** is a comprehensive visual creation platform tailored for professionals in sublimation, custom products, apparel, print shops, merchandise, and graphic design.
+**SublimStudio Pro** is a comprehensive visual creation platform tailored for professionals in sublimation, customization, apparel, print shops, merchandise, and graphic design.
 
-It consolidates 2D editing tools, advanced typography, graphic element generators, AI Studio, HD image banks, 3D mockups, and print-ready prepress workflows into a single workspace.
+It brings together 2D editing, advanced typography, graphic generators, AI Studio, HD image banks, 3D mockups, and print-ready workflows into a single workspace.
 
 > **Development:** diBiTech®
 > **Developers:** Rui Tobias Carvalho & Rodrigo Carvalho
@@ -117,38 +181,99 @@ It consolidates 2D editing tools, advanced typography, graphic element generator
 
 ### ✨ Key Features
 
-* **🎨 Print & Product Editor:** 2D visual workspace, layer management, safety margins, guides, and bleed settings calculated for 300 DPI output.
-* **🔤 WordArt Studio PRO:** Advanced text effects including 3D, neon, retro, metallic and curved text, with support for OTF, TTF, WOFF2, and Google Fonts.
-* **☁️ Word Cloud Generator:** Custom typography clouds shaped as mugs, t-shirts, hearts, shields, stars, crowns, flames, and other shapes.
-* **🔳 QR Code Art:** Custom styled QR codes with central logo integration and SVG/PNG export.
-* **🤖 AI Studio:** Built-in AI generation tailored for sublimation aesthetics, custom artwork, patterns, and personalized products.
-* **🖼️ HD Image Banks:** Image resources integrated into the creative workflow for customization and graphic design.
-* **🧊 Real-Time 3D Mockup:** Interactive 360° preview of artwork rendered on cylindrical, conical, apparel, and other 3D products.
-* **🖨️ Print Hub & Nesting:** Automated layout nesting for A4, A3, and A3+ paper sheets, crop marks, print preparation, and ink usage estimation.
+* **🎨 Print & Product Editor:** 2D visual workspace, layers, guides, safety margins, and 300 DPI bleed configuration.
+* **🔤 WordArt Studio PRO:** 3D, neon, retro, metallic and curved text effects with OTF, TTF, WOFF2 and Google Fonts support.
+* **☁️ Word Cloud Generator:** Typography clouds shaped as mugs, t-shirts, hearts, shields, stars, crowns, flames, and more.
+* **🔳 QR Code Art:** Custom QR codes with logo integration and SVG/PNG export.
+* **🤖 AI Studio:** AI image generation optimized for sublimation and customized products.
+* **🖼️ HD Image Banks:** Visual resources integrated into the creative workflow.
+* **🧊 Real-Time 3D Mockup:** Interactive 360° previews on cylindrical, conical, apparel, and other products.
+* **🖨️ Print Hub & Nesting:** Automated nesting for A4, A3 and A3+ sheets, crop marks, and print preparation.
 
 ---
 
 ### 🖼️ Screenshots Gallery
 
-|               Main Interface               |             WordArt Studio PRO             |
-| :----------------------------------------: | :----------------------------------------: |
-| ![Main Interface](docs/screenshots/01.png) | ![WordArt Studio](docs/screenshots/02.png) |
+#### 🎨 Main Interface
 
-|          Word Cloud Generator          |           Elements & Shapes          |
-| :------------------------------------: | :----------------------------------: |
-| ![Word Cloud](docs/screenshots/03.png) | ![Elements](docs/screenshots/04.png) |
+<p align="center">
+  <img src="docs/screenshots/01.png"
+       alt="SublimStudio Pro Main Interface"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
 
-|            3D Mockup Editor           |         Print Hub (Nesting)         |
-| :-----------------------------------: | :---------------------------------: |
-| ![3D Mockup](docs/screenshots/05.png) | ![Nesting](docs/screenshots/13.png) |
+#### 🔤 WordArt Studio PRO
 
-|               SublimStudio Pro — 15              |               SublimStudio Pro — 16              |
-| :----------------------------------------------: | :----------------------------------------------: |
-| ![SublimStudio Pro 15](docs/screenshots/15.jpeg) | ![SublimStudio Pro 16](docs/screenshots/16.jpeg) |
+<p align="center">
+  <img src="docs/screenshots/02.png"
+       alt="WordArt Studio PRO"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
 
-|               SublimStudio Pro — 17              |     |
-| :----------------------------------------------: | :-: |
-| ![SublimStudio Pro 17](docs/screenshots/17.jpeg) |     |
+#### ☁️ Word Cloud Generator
+
+<p align="center">
+  <img src="docs/screenshots/03.png"
+       alt="Word Cloud Generator"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 🧩 Elements & Shapes
+
+<p align="center">
+  <img src="docs/screenshots/04.png"
+       alt="Elements and Shapes"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 🧊 3D Mockup
+
+<p align="center">
+  <img src="docs/screenshots/05.png"
+       alt="3D Mockup"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 🖨️ Print Hub — Nesting
+
+<p align="center">
+  <img src="docs/screenshots/13.png"
+       alt="Print Hub and Nesting"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 📱 New Interface — 15
+
+<p align="center">
+  <img src="docs/screenshots/15.jpeg"
+       alt="SublimStudio Pro Interface 15"
+       width="600"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 📱 New Interface — 16
+
+<p align="center">
+  <img src="docs/screenshots/16.jpeg"
+       alt="SublimStudio Pro Interface 16"
+       width="600"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 📱 New Interface — 17
+
+<p align="center">
+  <img src="docs/screenshots/17.jpeg"
+       alt="SublimStudio Pro Interface 17"
+       width="600"
+       style="max-width:100%;height:auto;">
+</p>
 
 ---
 
@@ -157,10 +282,12 @@ It consolidates 2D editing tools, advanced typography, graphic element generator
 * **UI & Framework:** React, TypeScript, Vite, Tailwind CSS
 * **State Management:** Zustand
 * **Rendering & 3D:** Canvas API, SVG, Three.js, WebGL
-* **Performance:** Web Workers, PWA Support
-* **Architecture:** Responsive web application designed for desktop, tablet, and mobile devices.
+* **Performance:** Web Workers
+* **Application:** PWA
+* **Responsive Design:** Desktop, tablet, and mobile devices
 
 ---
+
 
 <br>
 
@@ -196,38 +323,99 @@ El objetivo es reunir en un solo lugar herramientas de edición 2D, tipografía 
 
 ### ✨ Características Principales
 
-* **🎨 Editor de Diseños y Productos:** Área de trabajo 2D con gestión de capas, guías de seguridad y sangría preparada para salida a 300 DPI.
-* **🔤 WordArt Studio PRO:** Efectos tipográficos 3D, neón, retro, metálicos y textos curvados, con compatibilidad con fuentes OTF, TTF, WOFF2 y Google Fonts.
+* **🎨 Editor de Diseños y Productos:** Área de trabajo 2D con capas, guías, márgenes de seguridad y sangría preparada para 300 DPI.
+* **🔤 WordArt Studio PRO:** Efectos tipográficos 3D, neón, retro, metálicos y textos curvados, con fuentes OTF, TTF, WOFF2 y Google Fonts.
 * **☁️ Generador de Nubes de Palabras:** Nubes tipográficas con formas de tazas, camisetas, corazones, escudos, estrellas, coronas, llamas y otras formas.
-* **🔳 QR Code Art:** Códigos QR personalizados con logotipo central y exportación en formato SVG y PNG.
+* **🔳 QR Code Art:** Códigos QR personalizados con integración de logotipo y exportación SVG/PNG.
 * **🤖 AI Studio:** Generación de imágenes mediante Inteligencia Artificial optimizada para sublimación y productos personalizados.
-* **🖼️ Bancos de Imágenes HD:** Recursos visuales integrados al flujo creativo para personalización y diseño gráfico.
-* **🧊 Mockup 3D en Tiempo Real:** Visualización interactiva 360° del diseño aplicado en objetos tridimensionales, productos cilíndricos, cónicos y prendas.
-* **🖨️ Central de Impresión:** Algoritmo de *nesting* para aprovechar el papel A4, A3 y A3+, marcas de corte y preparación del flujo de impresión.
+* **🖼️ Bancos de Imágenes HD:** Recursos visuales integrados en el flujo creativo.
+* **🧊 Mockup 3D en Tiempo Real:** Visualización interactiva 360° del diseño aplicado en productos tridimensionales.
+* **🖨️ Central de Impresión:** *Nesting* automatizado para papel A4, A3 y A3+, marcas de corte y preparación para impresión.
 
 ---
 
 ### 🖼️ Galería de Capturas
 
-|               Interfaz Principal               |             WordArt Studio PRO             |
-| :--------------------------------------------: | :----------------------------------------: |
-| ![Interfaz Principal](docs/screenshots/01.png) | ![WordArt Studio](docs/screenshots/02.png) |
+#### 🎨 Interfaz Principal
 
-|               Nube de Palabras               |           Elementos y Formas          |
-| :------------------------------------------: | :-----------------------------------: |
-| ![Nube de Palabras](docs/screenshots/03.png) | ![Elementos](docs/screenshots/04.png) |
+<p align="center">
+  <img src="docs/screenshots/01.png"
+       alt="Interfaz Principal de SublimStudio Pro"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
 
-|          Editor de Mockup 3D          |    Central de Impresión (Nesting)   |
-| :-----------------------------------: | :---------------------------------: |
-| ![Mockup 3D](docs/screenshots/05.png) | ![Nesting](docs/screenshots/13.png) |
+#### 🔤 WordArt Studio PRO
 
-|               SublimStudio Pro — 15              |               SublimStudio Pro — 16              |
-| :----------------------------------------------: | :----------------------------------------------: |
-| ![SublimStudio Pro 15](docs/screenshots/15.jpeg) | ![SublimStudio Pro 16](docs/screenshots/16.jpeg) |
+<p align="center">
+  <img src="docs/screenshots/02.png"
+       alt="WordArt Studio PRO"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
 
-|               SublimStudio Pro — 17              |     |
-| :----------------------------------------------: | :-: |
-| ![SublimStudio Pro 17](docs/screenshots/17.jpeg) |     |
+#### ☁️ Generador de Nubes de Palabras
+
+<p align="center">
+  <img src="docs/screenshots/03.png"
+       alt="Generador de Nubes de Palabras"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 🧩 Elementos y Formas
+
+<p align="center">
+  <img src="docs/screenshots/04.png"
+       alt="Elementos y Formas"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 🧊 Mockup 3D
+
+<p align="center">
+  <img src="docs/screenshots/05.png"
+       alt="Mockup 3D"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 🖨️ Central de Impresión — Nesting
+
+<p align="center">
+  <img src="docs/screenshots/13.png"
+       alt="Central de Impresión y Nesting"
+       width="900"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 📱 Nueva Interfaz — 15
+
+<p align="center">
+  <img src="docs/screenshots/15.jpeg"
+       alt="SublimStudio Pro Interfaz 15"
+       width="600"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 📱 Nueva Interfaz — 16
+
+<p align="center">
+  <img src="docs/screenshots/16.jpeg"
+       alt="SublimStudio Pro Interfaz 16"
+       width="600"
+       style="max-width:100%;height:auto;">
+</p>
+
+#### 📱 Nueva Interfaz — 17
+
+<p align="center">
+  <img src="docs/screenshots/17.jpeg"
+       alt="SublimStudio Pro Interfaz 17"
+       width="600"
+       style="max-width:100%;height:auto;">
+</p>
 
 ---
 
@@ -236,8 +424,11 @@ El objetivo es reunir en un solo lugar herramientas de edición 2D, tipografía 
 * **Interfaz:** React, TypeScript, Vite, Tailwind CSS
 * **Gestión de Estado:** Zustand
 * **Renderizado & 3D:** Canvas API, SVG, Three.js, WebGL
-* **Rendimiento:** Web Workers, Soporte PWA
-* **Arquitectura:** Aplicación web responsiva para escritorio, tabletas y dispositivos móviles.
+* **Rendimiento:** Web Workers
+* **Aplicación:** PWA
+* **Diseño Responsivo:** Escritorio, tabletas y dispositivos móviles
+
+---
 
 ---
 
