@@ -105,32 +105,27 @@ A proposta é reunir em um único ambiente ferramentas de edição 2D, tipografi
        style="max-width:100%;height:auto;">
 </p>
 
-#### 📱 Novas Interfaces — 15
+#### 📱 Novas Interfaces
 
-<p align="center">
-  <img src="docs/screenshots/15.jpeg"
-       alt="SublimStudio Pro - Interface 15"
-       width="600"
-       style="max-width:100%;height:auto;">
-</p>
-
-#### 📱 Novas Interfaces — 16
-
-<p align="center">
-  <img src="docs/screenshots/16.jpeg"
-       alt="SublimStudio Pro - Interface 16"
-       width="600"
-       style="max-width:100%;height:auto;">
-</p>
-
-#### 📱 Novas Interfaces — 17
-
-<p align="center">
-  <img src="docs/screenshots/17.jpeg"
-       alt="SublimStudio Pro - Interface 17"
-       width="600"
-       style="max-width:100%;height:auto;">
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/15.jpeg"
+           alt="SublimStudio Pro - Interface 15"
+           width="280">
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/16.jpeg"
+           alt="SublimStudio Pro - Interface 16"
+           width="280">
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/17.jpeg"
+           alt="SublimStudio Pro - Interface 17"
+           width="280">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -144,7 +139,6 @@ A proposta é reunir em um único ambiente ferramentas de edição 2D, tipografi
 * **Responsividade:** Desktop, tablet e dispositivos móveis
 
 ---
-
 ---
 
 <br>
@@ -172,7 +166,7 @@ A proposta é reunir em um único ambiente ferramentas de edição 2D, tipografi
 
 **SublimStudio Pro** is a comprehensive visual creation platform tailored for professionals in sublimation, customization, apparel, print shops, merchandise, and graphic design.
 
-It brings together 2D editing, advanced typography, graphic generators, AI Studio, HD image banks, 3D mockups, and print-ready workflows into a single workspace.
+It brings together 2D editing tools, advanced typography, graphic generators, AI Studio, HD image banks, 3D mockups, and print-ready workflows into a single workspace.
 
 > **Development:** diBiTech®
 > **Developers:** Rui Tobias Carvalho & Rodrigo Carvalho
@@ -248,32 +242,27 @@ It brings together 2D editing, advanced typography, graphic generators, AI Studi
        style="max-width:100%;height:auto;">
 </p>
 
-#### 📱 New Interface — 15
+#### 📱 New Interfaces
 
-<p align="center">
-  <img src="docs/screenshots/15.jpeg"
-       alt="SublimStudio Pro Interface 15"
-       width="600"
-       style="max-width:100%;height:auto;">
-</p>
-
-#### 📱 New Interface — 16
-
-<p align="center">
-  <img src="docs/screenshots/16.jpeg"
-       alt="SublimStudio Pro Interface 16"
-       width="600"
-       style="max-width:100%;height:auto;">
-</p>
-
-#### 📱 New Interface — 17
-
-<p align="center">
-  <img src="docs/screenshots/17.jpeg"
-       alt="SublimStudio Pro Interface 17"
-       width="600"
-       style="max-width:100%;height:auto;">
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/15.jpeg"
+           alt="SublimStudio Pro - Interface 15"
+           width="280">
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/16.jpeg"
+           alt="SublimStudio Pro - Interface 16"
+           width="280">
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/17.jpeg"
+           alt="SublimStudio Pro - Interface 17"
+           width="280">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -287,7 +276,7 @@ It brings together 2D editing, advanced typography, graphic generators, AI Studi
 * **Responsive Design:** Desktop, tablet, and mobile devices
 
 ---
-
+---
 
 <br>
 
@@ -390,32 +379,27 @@ El objetivo es reunir en un solo lugar herramientas de edición 2D, tipografía 
        style="max-width:100%;height:auto;">
 </p>
 
-#### 📱 Nueva Interfaz — 15
+#### 📱 Nuevas Interfaces
 
-<p align="center">
-  <img src="docs/screenshots/15.jpeg"
-       alt="SublimStudio Pro Interfaz 15"
-       width="600"
-       style="max-width:100%;height:auto;">
-</p>
-
-#### 📱 Nueva Interfaz — 16
-
-<p align="center">
-  <img src="docs/screenshots/16.jpeg"
-       alt="SublimStudio Pro Interfaz 16"
-       width="600"
-       style="max-width:100%;height:auto;">
-</p>
-
-#### 📱 Nueva Interfaz — 17
-
-<p align="center">
-  <img src="docs/screenshots/17.jpeg"
-       alt="SublimStudio Pro Interfaz 17"
-       width="600"
-       style="max-width:100%;height:auto;">
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/15.jpeg"
+           alt="SublimStudio Pro - Interfaz 15"
+           width="280">
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/16.jpeg"
+           alt="SublimStudio Pro - Interfaz 16"
+           width="280">
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/17.jpeg"
+           alt="SublimStudio Pro - Interfaz 17"
+           width="280">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -427,8 +411,6 @@ El objetivo es reunir en un solo lugar herramientas de edición 2D, tipografía 
 * **Rendimiento:** Web Workers
 * **Aplicación:** PWA
 * **Diseño Responsivo:** Escritorio, tabletas y dispositivos móviles
-
----
 
 ---
 
